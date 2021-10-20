@@ -1,5 +1,7 @@
 # Python-Kurs
 
-Wann? Do. 2. DS
+- Do. 2. DS
 
-Wo? APB E001
+- APB E001
+
+Hier werden alle Folien für unseren Kurs veröffentlicht.
