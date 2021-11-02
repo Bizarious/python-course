@@ -8,15 +8,15 @@ passwd = "meinpasswort" # ein Passwort als String abspeichern
 # Hier bietet sich eine Endlosschleife an, da wir den Nutzer potentiell
 # unendlich lange nach dem Passwort fragen müssen
 while True:
-    i = input("Passwort eingeben: ")
     # Input wird vom Nutzer verlangt und als "i" gespeichert
+    i = input("Passwort eingeben: ")
     if i == passwd:
         # wenn der Input gleich dem Passwort ist, können wir aus der Schleife raus
         print("Passwort korrekt")
         break # bricht die Schleife ab
     else:
         # Wenn der Input nicht gleich dem Passwort ist, machen wir einfach
-        # garnichts, da die Schleife von selbst weitermacht
+        # gar nichts, da die Schleife von selbst weitermacht
         print("Passwort inkorrekt")
 
 #### 2. Sammle alle falsch eingegebenen Passwörter in einer Liste und ####
